@@ -27,11 +27,15 @@ namespace FilmAPI.Data
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
+
         public DbSet<AdminRemove> Removals { get; set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<UserProfile> UserProfile { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -59,5 +63,5 @@ namespace FilmAPI.Data
             HasKey(iur => iur.UserId);
         }
     }
-
+    
 }

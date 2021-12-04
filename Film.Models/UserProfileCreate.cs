@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Film.Models
 {
-    public class UserProfile
+    public class UserProfileCreate
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
