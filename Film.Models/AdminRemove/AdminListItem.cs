@@ -13,5 +13,7 @@ namespace Film.Models.AdminRemove
         public int RemoveId { get; set; }
         [Required]
         public string Username { get; set; }
+        [Required]
+        public Guid ProfileId { get; set; }
     }
 }
