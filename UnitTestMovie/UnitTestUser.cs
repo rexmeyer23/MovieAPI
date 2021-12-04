@@ -57,11 +57,10 @@ namespace UnitTestMovie
         // public void MyTestCleanup() { }
         //
         #endregion
-        private 
-        [TestInitialize]
+        
        
         [TestMethod]
-        public void TestMethod1()
+        public void TestUser()
         {
             //Arrange
             //Act
