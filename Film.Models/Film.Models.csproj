@@ -85,7 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserProfile.cs" />
+    <Compile Include="UserProfileCreate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
