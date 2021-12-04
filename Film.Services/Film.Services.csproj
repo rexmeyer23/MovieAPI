@@ -84,11 +84,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Film.Data\Film.Data.csproj">
+      <Project>{62CFA733-0FF4-4D7C-8D51-7F4E53AED25D}</Project>
+      <Name>Film.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Film.Models\Film.Models.csproj">
+      <Project>{27F21A63-2B72-4C24-9AE3-F7DCDD474C02}</Project>
+      <Name>Film.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

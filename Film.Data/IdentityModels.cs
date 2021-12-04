@@ -3,6 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using Film.Data;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
@@ -26,7 +27,7 @@ namespace FilmAPI.Data
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
-        
+        public DbSet<AdminRemove> Removals { get; set; }
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
