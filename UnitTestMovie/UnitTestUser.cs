@@ -57,7 +57,9 @@ namespace UnitTestMovie
         // public void MyTestCleanup() { }
         //
         #endregion
-
+        private
+        [TestInitialize]
+       
         [TestMethod]
         public void TestMethod1()
         {
