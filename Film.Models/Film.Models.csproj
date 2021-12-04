@@ -84,7 +84,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminRemove\AdminCreate.cs" />
+    <Compile Include="AdminRemove\AdminDetail.cs" />
+    <Compile Include="AdminRemove\AdminEdit.cs" />
+    <Compile Include="AdminRemove\AdminListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserProfile.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
